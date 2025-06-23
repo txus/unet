@@ -1,0 +1,22 @@
+[project]
+name = "unet"
+version = "0.1.0"
+description = "Reproducing the U-Net paper"
+readme = "README.md"
+requires-python = "==3.12.3"
+dependencies = [
+    "elasticdeform>=0.5.1",
+    "matplotlib>=3.10.3",
+    "numpy<2",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.7.0",
+    "torch>=2.7.1",
+    "torchsummary>=1.5.1",
+    "torchvision>=0.22.1",
+]
+
+[dependency-groups]
+dev = [
+    "matplotlib-backend-kitty>=2.1.2",
+    "wandb>=0.20.1",
+]

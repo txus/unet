@@ -1,0 +1,7 @@
+blobfile>=3.0.0
+datasets>=3.6.0
+protobuf>=6.31.0
+wandb
+torchsummary>=1.5.1
+matplotlib>=3.10.3
+elasticdeform
